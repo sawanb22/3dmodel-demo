@@ -1,0 +1,16 @@
+{
+  "name": "3dmodel-demo",
+  "version": "1.0.0",
+  "description": "3D Model Showcase",
+  "scripts": {
+    "build": "echo 'Static site - no complex build needed'",
+    "start": "echo 'Please use a static file server like serve or live-server'"
+  },
+  "keywords": [
+    "3d",
+    "model-viewer",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC"
+}
