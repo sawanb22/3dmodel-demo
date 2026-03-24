@@ -1,11 +1,9 @@
-import Script from 'next/script'
 import ModelViewerComponent from '@/components/ModelViewer'
 
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col md:flex-row items-center justify-center p-8 md:p-16 gap-8 md:gap-16 max-w-7xl mx-auto w-full z-10">
-      <Script src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js" type="module" strategy="lazyOnload" />
-      
+
       {/* Background Glows */}
       <div className="absolute -top-24 -left-24 w-96 h-96 bg-[radial-gradient(circle,rgba(124,58,237,0.4),transparent_70%)] blur-[80px] -z-10" />
       <div className="absolute -bottom-36 -right-24 w-[32rem] h-[32rem] bg-[radial-gradient(circle,rgba(14,165,233,0.3),transparent_70%)] blur-[100px] -z-10" />
